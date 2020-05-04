@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #521aee;
+  &__limit {
+    width: 100px;
+    margin-right: auto;
+    background-color: #6938f1;
+  }
+}
+.tasks {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-color: #444444;
+  display: flex;
+  &__content {
+    width: 800px;
+    height: 100px;
+    background-color: #666464;
+  }
+  &__limit {
+    width: calc(100% - 800px);
+    height: 100px;
+    background-color: #979595;
+  }
+}
